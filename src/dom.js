@@ -105,7 +105,7 @@ window.dom = {
   // 查
   find(selector, scope) {
     return (scope || document).querySelectorAll(selector);
-  },// 如果有范围，在范围里面找到一个选择器，没有，则直接找到第一个选择器
+  },// 如果有范围，在范围里面找到一个选择器，没有，则直接找到所有选择器
   parent(node) {
     return node.parentNode;
   },// 查看该节点的父节点
